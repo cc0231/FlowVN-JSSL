@@ -1,0 +1,19 @@
+# Python 3.10. Install the CUDA build of torch (and the matching torchvision, which
+# lightning-bolts needs) first, e.g.
+#   pip install torch==2.3.1 torchvision==0.18.1 --index-url https://download.pytorch.org/whl/cu121
+# (Blackwell / sm_120 GPUs need torch>=2.7 with cu128.)
+torch>=2.3.1
+# main.py uses the Lightning 1.x Trainer API (replace_sampler_ddp, integer precision).
+pytorch-lightning==1.9.5
+setuptools<70            # Lightning 1.9 imports pkg_resources
+lightning-bolts==0.7.0
+numpy==1.26.3
+scipy==1.13.1
+h5py==3.11.0
+hdf5storage==0.2.2
+pandas==2.2.2
+einops==0.8.0
+scikit-image==0.24.0
+matplotlib==3.9.2
+tensorboard==2.17.0
+loguru==0.7.2

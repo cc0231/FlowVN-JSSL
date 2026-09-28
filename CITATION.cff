@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Joint Supervised and Self-Supervised Training with Acquisition-Robust Techniques for Accelerated 4D Flow MRI Reconstruction"
+authors:
+  - family-names: Xue
+    given-names: Mengyuan
+    affiliation: "University of Texas Southwestern Medical Center"
+  - family-names: Mei
+    given-names: Bochun
+    affiliation: "University of California, San Francisco"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Joint Supervised and Self-Supervised Training with Acquisition-Robust Techniques for Accelerated 4D Flow MRI Reconstruction"
+  authors:
+    - family-names: Xue
+      given-names: Mengyuan
+    - family-names: Mei
+      given-names: Bochun
+  collection-title: "Statistical Atlases and Computational Models of the Heart (STACOM 2026), MICCAI 2026 Workshops"
+  year: 2026
