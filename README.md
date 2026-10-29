@@ -151,12 +151,11 @@ The challenge evaluation code in `cmr_helper_scripts/` and the k-t Gaussian unde
 ## Citation
 
 ```bibtex
-@inproceedings{xue2026jssl4dflow,
-  title     = {Joint Supervised and Self-Supervised Training with Acquisition-Robust Techniques
-               for Accelerated 4D Flow MRI Reconstruction},
-  author    = {Xue, Mengyuan and Mei, Bochun},
-  booktitle = {Statistical Atlases and Computational Models of the Heart (STACOM), MICCAI Workshops},
-  year      = {2026}
+@article{xue2026joint,
+  title={Joint Supervised and Self-Supervised Training with Acquisition-Robust Techniques for Accelerated 4D Flow MRI Reconstruction},
+  author={Xue, Mengyuan and Mei, Bochun},
+  journal={arXiv preprint arXiv:2609.38644},
+  year={2026}
 }
 ```
 
